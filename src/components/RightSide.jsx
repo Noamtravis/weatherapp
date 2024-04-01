@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./RightSide.css";
 const RightSide = ({ weatherData, lastRequestDate, lastRequestTime }) => {
   return (
     <div className="right-side">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logoimage.png";
 import { includesDigit } from "../utils";
 import { API_URL } from "../consts";
+import "./LeftSide.css";
 
 const LeftSide = ({
   weatherData,

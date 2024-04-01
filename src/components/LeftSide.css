@@ -1,0 +1,69 @@
+.app-description {
+  padding-top: 78.11px;
+  font: normal normal 300 30px/44px Heebo;
+  font-weight: 200;
+}
+
+.check-button {
+  background-color: #046b3b;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 5px 23px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.check-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.citysearch {
+  padding-top: 50px;
+}
+
+.search-title {
+  padding-left: 12px;
+  font-size: 16px;
+}
+.left-card {
+  padding-left: 53px;
+  height: calc(100% - 57px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 431px;
+  padding: 16px;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  box-sizing: border-box;
+  height: 63px;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+.left-side-bottom {
+  font-size: 14px;
+}
+
+.coordinates {
+  gap: 20px;
+  display: flex;
+  margin-bottom: 4px;
+}
